@@ -3,7 +3,7 @@
 This is the data set used for The Third International Knowledge Discovery and Data Mining Tools Competition, which was held in conjunction with KDD-99 The Fifth International Conference on Knowledge Discovery and Data Mining. The competition task was to build a network intrusion detector, a predictive model capable of distinguishing between ``bad'' connections, called intrusions or attacks, and ``good'' normal connections.
 
 ## Scope and objective
-Use SparkML and AWS EMR to train a model and predict the intrusion. This project doesn't aim to high accuracy, instead of a showing a SOP to instruct people on how to use the SparkMl
+Use SparkML and AWS EMR to train a model and predict the intrusion. The traning shows accptable accuracy given a small number of trees, larger trees will consume more resources of time (single nodes) or larger cluster. A SOP to instruct people on how to use the SparkMl also provide here.
 
 ## Data source
 [UCI KDD Archive](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
